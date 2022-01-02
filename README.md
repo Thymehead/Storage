@@ -1,2 +1,2 @@
 # Storage
-Kinda just storing files for ahk scripts and such
+Kinda just storing files for ahk scripts and stuff
